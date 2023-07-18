@@ -1,0 +1,25 @@
+.discount{
+    font-size: 20px;
+    text-decoration: line-through;
+    position: absolute;
+    top: 0;
+    
+}
+
+.img{
+    max-width: 100%;
+    max-height: 80vh;
+    
+    
+    object-fit: cover;
+    
+}
+
+@media (max-width:970px) {
+    .img{
+        max-width: 50%;
+        height: 30vh;
+       
+    
+}
+}

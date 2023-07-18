@@ -1,0 +1,32 @@
+.line-text{
+    text-decoration: line-through;
+    font-size: 20px;
+}
+.card{
+    overflow: hidden;
+    transition: all .5s ease;
+    
+
+}
+.intro{
+    position: absolute; 
+    transition: all .7s ease;
+    opacity: 0;
+    padding: 10px;
+    width: 100%;
+    bottom:-100px;
+    box-sizing: border-box;
+   
+    
+}
+.card:hover > .intro {
+    filter: brightness(100%);
+    bottom: 50px;
+    opacity: 1;
+   
+}
+.card:hover{
+    filter: brightness(70%);
+    cursor: pointer;
+    
+}
